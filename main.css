@@ -1,0 +1,194 @@
+/* Variables */
+:root{
+    --primary-color: rgb(164,198,57);
+    --secondary-color: purple;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) { */
+    .request__div{
+        color: white;
+        background-color: var(--primary-color);
+        text-align: center;
+        padding: 35px 15px;
+    }
+    .request__div p{
+        margin: 10px 0;
+    }
+    .request__div button{
+        margin-top:20px ;
+        padding: 10px 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border: 2px solid white;
+        border-radius: 25px;
+        width: 150px;
+        font-weight: bolder;
+    }
+    
+    .main__div{
+        padding: 100px 15px;
+        text-align: center;
+    }
+    
+    .main__div h1{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .main__div h1 span{
+        color: var(--primary-color);
+    }
+    
+    .main__div p{
+        color: gray;
+        margin-bottom: 50px;
+    }
+    
+    .main__div-card{
+        padding: 20px 0px;
+        text-align: left;
+    }
+    .main__div-card-image{
+        width: 100%;
+    }
+    .main__div-card div{
+        padding: 30px;
+        line-height: 30px;
+        background-color:hsl(0, 9%, 98%);
+    }
+    .main__div-card div p{
+        margin-top: 10px;
+    }
+    .brand__details-button{
+        margin-top: 0px;
+    }
+    
+    .section1 {
+        padding: 120px 20px;
+        background: black;
+        color: white;
+        line-height: 30px;
+        background-image: url('images/FinanceBusiness.jpeg');
+        background-attachment: fixed;
+    }
+    
+    .section1 h1{
+        font-size: xx-large;
+        line-height: 40px;
+    }
+    
+    .section1 h1 span{
+        color: var(--primary-color);
+    
+    }
+    .section1 button{
+        margin-left: 0px;
+    }
+    
+    .section1-container2{
+        margin-top: 50px;
+        
+    }
+    .section1__child{
+        padding: 30px;
+        background:rgba(155, 155, 155, 0.5);
+        font-weight: 800;
+        text-align: center;
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+    .section1__child h1{
+        
+        color: var(--primary-color);
+    }
+    
+    .section1__child h4{
+        color: white;
+    }
+    
+    .section2{
+        padding: 0px 15px;
+        background: white;
+        line-height: 30px;
+    }
+    
+    
+    .section2 div{
+        padding: 0px;
+        background-color: rgb(241, 241, 241);
+    }
+    
+    .section2 div h1{
+        font-size: xx-large;
+        font-weight: 800;
+    }
+    .section2 div h1 span{
+        color: var(--primary-color);
+    }
+    
+    .section2 div p,h1{
+        margin-top: 20px;
+    }
+    
+    .section3{
+        padding: 100px 20px 50px 20px;
+        background-color: ghostwhite;
+        text-align: center;
+    }
+    .section3 h1{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .section3 h1 span{
+        color: var(--primary-color);
+    }
+    
+/* } */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main__div{
+        padding: 100px 120px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .request__div{
+        text-align: left;
+        display: flex;
+        padding: 35px 10%;
+    }
+    .request__div .btnContainer{
+        margin: auto;
+    }
+    .card-container{
+        display: flex;
+    }
+    .main__div{
+        padding: 100px 60px;
+    }
+    .main__div-card{
+        width: 33%;
+        margin-right:5%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .request__div .btnContainer{
+     padding: 0px 0px 0px 20% ;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .request__div .btnContainer{
+        padding: 0px 0px 0px 40% ;
+       }
+       .main__div{
+           padding: 100px 200px;
+       }
+}
